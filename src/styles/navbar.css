@@ -1,0 +1,41 @@
+.navbar{
+    color: white;
+    background-color: rgb(39, 38, 38);
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+
+}
+
+.logo{
+position: absolute;
+left: 0;
+}
+
+
+.header{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-self: center;
+} 
+
+.nav-icons{
+    position: absolute;
+    right: 0;
+    color: white;
+    
+}
+
+
+.header:hover{
+    color: antiquewhite;
+}
